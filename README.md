@@ -1,4 +1,4 @@
 # ShopTech_App_Android
 Java | Android Studio | APK 
 
-![](http://i.imgur.com/OUkLi.gif)
+![](https://s6.gifyu.com/images/intro_app.gif)
