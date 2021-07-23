@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            app:title="Thanh Toán"
+            app:titleTextColor="#FFFFFF"
+            android:id="@+id/tbThanhToan"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gui_toi"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="18sp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edtTenKhachHang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ten_nguoi_nhan"
+            android:background="@drawable/border_thanhtoan"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:autofillHints=""
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dia_chi_label"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="18sp"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/edtDiaChiKhachHang"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="@string/dia_chi_nguoi_nhan"
+            android:background="@drawable/border_thanhtoan"
+            android:padding="10dp"
+            android:gravity="top"
+            android:textColor="#000000"
+            android:autofillHints=""
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/so_dien_thoai"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="18sp"
+            android:padding="5dp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/edtSoDienThoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/so_dien_thoai_nguoi_nhan"
+            android:background="@drawable/border_thanhtoan"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:autofillHints=""
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tuy_chon_giao_hang"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="18sp"
+            android:padding="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/rgThanhToan"
+                    tools:ignore="UselessParent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <ImageButton
+                            android:id="@+id/ibtnShip"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ship"
+                            android:scaleType="centerInside"
+                            android:background="#FFFFFF"
+                            android:layout_gravity="center"
+                            tools:ignore="ContentDescription" />
+                        <RadioButton
+                            android:id="@+id/radNhanHang"
+                            android:text="Thanh toán khi nhận hàng"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="HardcodedText" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <ImageButton
+                            android:id="@+id/ibtnPaypal"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_paypal"
+                            android:scaleType="centerInside"
+                            android:background="#FFFFFF"
+                            android:layout_gravity="center"
+                            tools:ignore="ContentDescription" />
+                        <RadioButton
+                            android:id="@+id/radPaypal"
+                            android:text="@string/thanh_toan_bang_paypal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cbCamKet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cam_ket"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp"
+            />
+
+        <include
+            android:id="@+id/pbtnDatHang"
+            layout="@layout/progress_button_dathang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

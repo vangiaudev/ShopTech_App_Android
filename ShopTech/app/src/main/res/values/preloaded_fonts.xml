@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/acme</item>
+        <item>@font/anton</item>
+        <item>@font/arbutus</item>
+        <item>@font/asset</item>
+        <item>@font/bangers</item>
+        <item>@font/bungee</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/bungee_outline</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/butcherman</item>
+        <item>@font/coiny</item>
+        <item>@font/cuprum</item>
+        <item>@font/cuprum_bold</item>
+        <item>@font/diplomata_sc</item>
+        <item>@font/emblema_one</item>
+        <item>@font/exo_thin</item>
+        <item>@font/faster_one</item>
+        <item>@font/francois_one</item>
+        <item>@font/fugaz_one</item>
+        <item>@font/goblin_one</item>
+        <item>@font/lalezar</item>
+        <item>@font/lemon</item>
+        <item>@font/lemonada_light</item>
+        <item>@font/open_sans_light</item>
+        <item>@font/oswald_light</item>
+        <item>@font/plaster</item>
+        <item>@font/play</item>
+        <item>@font/poller_one</item>
+        <item>@font/source_code_pro_extralight</item>
+        <item>@font/spicy_rice</item>
+        <item>@font/stalinist_one</item>
+        <item>@font/yatra_one</item>
+    </array>
+</resources>

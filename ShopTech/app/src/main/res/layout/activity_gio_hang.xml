@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.GioHangActivity"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbGioHang"
+        app:title="Giỏ Hàng"
+        app:titleTextColor="@color/white"
+        android:background="#edffac06"
+        app:theme="@style/ToolbarColoredBackArrow">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_gravity="center|top"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/imgGioHangTrong"
+                android:src="@drawable/ic_empty_cart"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gio_hang_trong"
+                android:id="@+id/txtThongBao"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/cuprum"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#3F51B5"/>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lvGioHang">
+            </ListView>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            tools:ignore="UselessParent">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#080265"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            tools:ignore="UselessParent"
+            android:baselineAligned="false">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/tong_tien"
+                    android:textColor="#C4773521" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/txtTongTien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100.000.000 d"
+                    android:textColor="#C4773521"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#080265">
+        <Button
+            android:id="@+id/btnThanhToanGioHang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/thanh_toan"
+            android:textColor="#080265"
+            android:textSize="14sp"
+            android:backgroundTint="#edffac06"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            tools:ignore="ButtonStyle,NestedWeights"
+            android:drawableStart="@drawable/ic_pay"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:id="@+id/btnTiepTucMuaHang"
+            android:text="@string/tiep_tuc_mua_hang"
+            android:textSize="14sp"
+            android:textColor="#080265"
+            android:backgroundTint="#edffac06"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            tools:ignore="ButtonStyle,NestedWeights"
+            android:drawableStart="@drawable/ic_buy_more"/>
+    </LinearLayout>
+
+</LinearLayout>

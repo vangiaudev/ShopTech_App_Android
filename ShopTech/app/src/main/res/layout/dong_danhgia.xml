@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_avatar"
+            android:id="@+id/civAvatarDG"/>
+        <TextView
+            android:id="@+id/txtHoTenDG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nguyễn Văn Giàu"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RatingBar
+            android:id="@+id/rbKetQuaDG"
+            android:progressTint="@color/yello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            style="?android:ratingBarStyleSmall"/>
+        <TextView
+            android:id="@+id/txtNgayDG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19/07/2021"
+            android:paddingStart="10dp"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtNoiDungDG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung đánh giá"
+        android:paddingTop="6dp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

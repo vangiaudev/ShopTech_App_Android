@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ChiTietThietBiActivity"
+    android:orientation="vertical"
+    android:layout_margin="2dp">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/tbChiTiet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navThemGioHang">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.viewpager.widget.ViewPager
+                android:padding="2dp"
+                android:layout_marginTop="55dp"
+                android:id="@+id/vpChiTiet"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/border_image_view"
+                android:src="@drawable/img_chi_tiet" />
+            <me.relex.circleindicator.CircleIndicator
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ciChiTiet"
+                app:ci_width="8dp"
+                app:ci_height="8dp"
+                android:orientation="horizontal"
+                app:ci_drawable="@drawable/ic_baseline_circle_12"
+                app:ci_gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"/>
+            <TextView
+                android:id="@+id/txtTenChiTiet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/cuprum"
+                android:text="Laptop Acer Aspire 5 A515-55-37HD NX.HSMSV.006"
+                android:textColor="#000"
+                android:textSize="22sp"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtGiaChiTiet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11.990.000₫"
+                    android:textColor="#FF0000"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/txtGiaGocChiTiet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:text="13.290.000₫"
+                    android:textColor="#B1A1A1"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#9F9E9E"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:backgroundTint="#A1A1A1"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#A1A1A1"
+                    android:src="@drawable/ic_freeship"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mien_phi_van_chuyen_toan_quoc"
+                    android:layout_gravity="bottom"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/francois_one"
+                    android:text="@string/chon_so_luong"
+                    android:textColor="#011AFD"
+                    android:textSize="18sp" />
+                <Spinner
+                    android:id="@+id/spiChiTiet"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:padding="3dp"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/custom_spinner"
+                    android:gravity="center"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cuprum"
+                android:text="@string/san_pham_duoc_cung_cap"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee_inline"
+                android:text="IT Shop"
+                android:textColor="@color/com_facebook_blue"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cam_ket_bao_hanh"
+                android:textSize="14sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cam_ket_chinh_hang"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFFFFF"
+                    android:drawableLeft="@drawable/icon_shield"
+                    android:text="@string/bao_ve_nguoi_mua_hang"
+                    android:textColor="#183545"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle,RtlHardcoded" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#FFFFFF"
+                    android:drawableLeft="@drawable/status_shield"
+                    android:text="@string/dam_bao_hai_long"
+                    android:textColor="#33fd01"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle,RtlHardcoded" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_textview"
+                    android:fontFamily="@font/lalezar"
+                    android:gravity="center"
+                    android:text="@string/thong_so_ky_thuat"
+                    android:textColor="#FD1100"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtMoTaChiTiet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_textview2"
+                    android:paddingBottom="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="40dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <View
+                    android:layout_marginTop="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/black"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Đánh giá sản phẩm"
+                    android:textColor="@color/black"
+                    tools:ignore="HardcodedText" />
+                <View
+                    android:layout_marginTop="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/black"/>
+                <vangiau.example.shoptech.general.WrapContentListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lvDanhGia"
+                    android:layout_marginTop="10dp"
+                    android:transcriptMode="alwaysScroll"
+                    android:stackFromBottom="true">
+                </vangiau.example.shoptech.general.WrapContentListView>
+
+                <include layout="@layout/layout_danhgia"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbChiTiet"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#010E57"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Chi Tiết Sản Phẩm"
+        app:titleTextColor="#FDFDFD"
+        app:theme="@style/ToolbarColoredBackArrow"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navThemGioHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="616dp"
+        android:background="#FFEB3B"
+        android:fitsSystemWindows="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbChiTiet"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

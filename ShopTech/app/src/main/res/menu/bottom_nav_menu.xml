@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_buy_now"
+        android:icon="@drawable/buy_now"
+        android:title="Mua ngay"
+        />
+    <item
+        android:id="@+id/nav_add_cart"
+        android:icon="@drawable/ic_add_shopping_cart_white"
+        android:title="Thêm giỏ hàng"
+        />
+
+
+</menu>

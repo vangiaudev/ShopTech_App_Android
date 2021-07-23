@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="84dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cimgDanhMuc"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/smartwatch"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF9800"
+        app:civ_circle_background_color="#FFEB3B" />
+    <TextView
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:text="Đồng hồ"
+        android:fontFamily="@font/cuprum"
+        android:textColor="#0F0044"
+        android:textSize="12sp"
+        android:id="@+id/txtTenDanhMuc"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

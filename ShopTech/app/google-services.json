@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "888842853634",
+    "project_id": "shoptech-306114",
+    "storage_bucket": "shoptech-306114.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888842853634:android:ae9a01cab3e9335c2b361b",
+        "android_client_info": {
+          "package_name": "vangiau.example.shoptech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888842853634-k7bdh35cvplndqrl48jdb6gd45qpn83u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-1it-ekC9UFl36IBHGWDCRY-Hrw1fpL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888842853634-k7bdh35cvplndqrl48jdb6gd45qpn83u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
