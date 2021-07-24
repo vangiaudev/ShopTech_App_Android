@@ -5,7 +5,7 @@
 ## 1. Nền tảng triển khai
 
 - Ứng dụng viết trên nền tảng Java và được chạy trên các thiết bị Android
-  ![android_w_java](https://user-images.githubusercontent.com/75024999/126862145-419f9049-2fd4-45af-bd6b-d5830f5ba4ff.png)
+  + ![android_w_java](https://user-images.githubusercontent.com/75024999/126862145-419f9049-2fd4-45af-bd6b-d5830f5ba4ff.png)
 
 - Sử dụng hệ cơ sở dữ liệu MySQL & Firebase
   ![mysql](https://user-images.githubusercontent.com/75024999/126862148-de0a8610-352b-4d83-b8ea-6e90a4fbdf28.png)
