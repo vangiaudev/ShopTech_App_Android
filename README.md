@@ -19,7 +19,7 @@
 - Sau khi đăng nhập tài khoản thành công thì sẽ vào giao diện chính của ứng dụng:
   + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/dashboard_app.gif)
 - Màn hình quản lý người dùng, hiển thị các thông tin của tài khoản đang được đăng nhập vào hệ thống bao gồm họ tên, email, địa chỉ, avatar... tại đây người dùng có thể tự do sửa đổi thông tin của mình:
-  + ![216940516_3935614019880777_707128437254492026_n](https://user-images.githubusercontent.com/75024999/126863735-a250a9d8-176f-4d2d-a960-457e06da78df.png)
+  + <img src="https://user-images.githubusercontent.com/75024999/126863735-a250a9d8-176f-4d2d-a960-457e06da78df.png?raw=true" height="528px" width="250px">
 - Tương tự có các giao diện diện như Điện Thoại, Macbook, Tablet, Đồng Hồ...
   + <img src="https://user-images.githubusercontent.com/75024999/126863857-7728417a-d66d-4ac3-af48-51e2fef2bf64.png?raw=true" height="528px" width="250px">
   + <img src="https://user-images.githubusercontent.com/75024999/126863865-ca5f2912-b51c-46eb-b17c-243a38ca7e95.png?raw=true" height="528px" width="250px">
