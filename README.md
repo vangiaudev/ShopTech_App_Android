@@ -28,6 +28,6 @@
    <img src="https://user-images.githubusercontent.com/75024999/126863875-8ad07dc2-a244-453d-b9cc-0a20551b13bd.png?raw=true" height="380px" width="180px">
  </div> 
  
-- Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng Real-time Database trên FIREBASE: 
-  
+- Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng 
+Real-time Database trên FIREBASE: 
   + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/searching_app.gif)
