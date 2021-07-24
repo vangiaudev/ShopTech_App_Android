@@ -30,4 +30,4 @@
 - Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng Real-time Database trên FIREBASE:
   
   - Giao diện sẽ xuất hiện như hình bên dưới sau khi mở ứng dụng:
-  + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/demo_app.gif)
+  + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/searching_app.gif)
