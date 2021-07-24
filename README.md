@@ -1,3 +1,3 @@
 # ShopTech_App_Android
 Java | Android Studio | APK 
-![](https://i.imgur.com/cfHPJhF.gif)
+![grab-landing-page](https://github.com/winnie1312/grab/blob/master/grab-landingpage-winnie.gif)
