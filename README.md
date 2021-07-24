@@ -3,6 +3,7 @@
 > ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ
 
 ## 1. Nền tảng triển khai
+
 - Ứng dụng viết trên nền tảng Java và được chạy trên các thiết bị Android
   ![android_w_java](https://user-images.githubusercontent.com/75024999/126862145-419f9049-2fd4-45af-bd6b-d5830f5ba4ff.png)
 
