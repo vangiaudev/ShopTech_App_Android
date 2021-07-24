@@ -408,7 +408,7 @@ public class TrangChuActivity extends AppCompatActivity implements NavigationVie
         arrayDanhMuc.add(new DanhMuc("Macbook", R.drawable.macbook));
         arrayDanhMuc.add(new DanhMuc("Tablet", R.drawable.tablet));
         arrayDanhMuc.add(new DanhMuc("Đồng hồ", R.drawable.smartwatch));
-        arrayDanhMuc.add(new DanhMuc("Khuyến mãi", R.drawable.news_tech));
+        arrayDanhMuc.add(new DanhMuc("Khuyến mãi", R.drawable.news));
         adapterDanhMuc   = new DanhMucAdapter(arrayDanhMuc, this);
         RecyclerView.LayoutManager layoutManagerDanhMuc = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         rvDanhMuc.setHasFixedSize(true);
