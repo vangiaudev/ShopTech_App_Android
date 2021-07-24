@@ -15,4 +15,6 @@
 ## 2. Khởi chạy ứng dụng
 - Giao diện sẽ xuất hiện như hình bên dưới sau khi mở ứng dụng
   + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/demo_app.gif)
+- Sau khi đăng nhập tài khoản thành công thì sẽ vào giao diện chính của ứng dụng
+  + ![grab-landing-page](+ ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/demo_app.gif))
 
