@@ -9,7 +9,7 @@
 - Sử dụng hệ cơ sở dữ liệu MySQL & Firebase
   + ![mysql](https://user-images.githubusercontent.com/75024999/126862148-de0a8610-352b-4d83-b8ea-6e90a4fbdf28.png)
 
-- Ứng dụng được viết trên nền tảng Android Studio
+- Chương trình được code trên Android Studio
   + ![androidstudio](https://user-images.githubusercontent.com/75024999/126862027-d2b66656-2a73-43ec-82d1-41002c66e2fc.png)
   
 ## 2. Khởi chạy ứng dụng
