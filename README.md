@@ -1,6 +1,5 @@
-# ShopTech_App_Android
-**NGUYỄN VĂN GIÀU - Sinh Viên Khoa Công Nghệ Thông Tin - Trường Đại Học Sư Phạm TP.HCM**
-> ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ
+# ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ
+> **NGUYỄN VĂN GIÀU - Sinh Viên Khoa Công Nghệ Thông Tin - Trường Đại Học Sư Phạm TP.HCM**
 
 ## 1. Nền tảng triển khai
 
