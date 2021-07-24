@@ -7,8 +7,10 @@
   + ![android_w_java](https://user-images.githubusercontent.com/75024999/126862145-419f9049-2fd4-45af-bd6b-d5830f5ba4ff.png)
 
 - Sử dụng hệ cơ sở dữ liệu MySQL & Firebase
-  + ![mysql](https://user-images.githubusercontent.com/75024999/126862148-de0a8610-352b-4d83-b8ea-6e90a4fbdf28.png)
-  + ![firebase](https://user-images.githubusercontent.com/75024999/126863039-1da26608-5360-4702-b630-37ffc2b97097.png)
+<div>
+   <img src="https://user-images.githubusercontent.com/75024999/126862148-de0a8610-352b-4d83-b8ea-6e90a4fbdf28.png?raw=true">
+   <img src="https://user-images.githubusercontent.com/75024999/126863039-1da26608-5360-4702-b630-37ffc2b97097.png?raw=true">
+</div> 
 
 - Chương trình được code trên Android Studio
   + ![androidstudio](https://user-images.githubusercontent.com/75024999/126862027-d2b66656-2a73-43ec-82d1-41002c66e2fc.png)
@@ -27,6 +29,7 @@
    <img src="https://user-images.githubusercontent.com/75024999/126863869-341f2346-1bf8-486b-8d1a-0a46bf4b251a.png?raw=true" height="380px" width="180px">
    <img src="https://user-images.githubusercontent.com/75024999/126863875-8ad07dc2-a244-453d-b9cc-0a20551b13bd.png?raw=true" height="380px" width="180px">
 </div> 
+
 - Giao diện Thông Tin Ứng Dụng hiển thị các những thông tin của nhà phát triển:
 <div>
    <img src="https://user-images.githubusercontent.com/75024999/126864733-b0bcdadd-d71d-4ba4-9576-93b310e052bb.png?raw=true" height="380px" width="180px">
