@@ -21,7 +21,7 @@
 - Màn hình quản lý người dùng, hiển thị các thông tin của tài khoản đang được đăng nhập vào hệ thống bao gồm họ tên, email, địa chỉ, avatar... tại đây người dùng có thể tự do sửa đổi thông tin của mình:
   + <img src="https://user-images.githubusercontent.com/75024999/126863735-a250a9d8-176f-4d2d-a960-457e06da78df.png?raw=true" height="380px" width="180px">
 - Tương tự có các giao diện diện như Điện Thoại, Macbook, Tablet, Đồng Hồ...
-<div align="left">
+<div>
    <img src="https://user-images.githubusercontent.com/75024999/126863857-7728417a-d66d-4ac3-af48-51e2fef2bf64.png?raw=true" height="380px" width="180px">
    <img src="https://user-images.githubusercontent.com/75024999/126863865-ca5f2912-b51c-46eb-b17c-243a38ca7e95.png?raw=true" height="380px" width="180px">
    <img src="https://user-images.githubusercontent.com/75024999/126863869-341f2346-1bf8-486b-8d1a-0a46bf4b251a.png?raw=true" height="380px" width="180px">
