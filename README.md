@@ -72,12 +72,19 @@ Realtime Database trên FIREBASE:
        <img src="https://user-images.githubusercontent.com/75024999/126900948-1be175c9-b6ea-40d3-880d-36899d814238.png?raw=true" height="507px" width="240px">
     </div>
     
-  + ##### 2.4 Thanh toán: Tại màn hình Thanh Toán, người dùng cần nhập đầy đủ các thông tin cá nhân. Có 2 phương thức thanh toán cho người dùng lựa chọn
+  + ##### 2.4 Thanh toán: 
+    + Tại màn hình Thanh Toán, người dùng cần nhập đầy đủ các thông tin cá nhân. Có 2 phương thức thanh toán cho người dùng lựa chọn
     <div>
        <img src="https://user-images.githubusercontent.com/75024999/126901123-6f1a55d5-02c6-4cc1-9183-8ae09d640727.png?raw=true" height="507px" width="240px">
        <img src="https://user-images.githubusercontent.com/75024999/126901174-d7f61c20-cd5c-46d7-9184-51345aab5f8c.png?raw=true" height="507px" width="240px">
        <img src="https://user-images.githubusercontent.com/75024999/126901187-fbb24558-c8ce-4033-a77a-873a19879fd4.png?raw=true" height="507px" width="240px">
-    </div> 
+    </div>  
+    + Sau khi hoàn thành các thông tin trên người dùng tiến hành đặt hàng (ở đây mình sẽ demo phương thức thanh toán khi nhận hàng)
+    <div>
+       <img src="https://user-images.githubusercontent.com/75024999/126901426-b36db75b-33ed-456d-ba80-b04d14cf720d.png?raw=true" height="507px" width="240px">
+       <img src="https://user-images.githubusercontent.com/75024999/126901432-f7a096ee-a4cf-4ac4-932b-a372a022b650.png?raw=true" height="507px" width="240px">
+    </div>
 
 
+  
 
