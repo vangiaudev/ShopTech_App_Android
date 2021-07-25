@@ -4,16 +4,20 @@
 ## 1. Nền tảng triển khai
 
 - Ứng dụng viết trên nền tảng Java và được chạy trên các thiết bị Android
+<div>
   <img src="https://user-images.githubusercontent.com/75024999/126862145-419f9049-2fd4-45af-bd6b-d5830f5ba4ff.png?raw=true" height="120px" width="120px">
+</div>
 
 - Sử dụng hệ cơ sở dữ liệu MySQL & Firebase
 <div>
-   <img src="https://user-images.githubusercontent.com/75024999/126862148-de0a8610-352b-4d83-b8ea-6e90a4fbdf28.png?raw=true" height="120px" width="70px">
+   <img src="https://user-images.githubusercontent.com/75024999/126862148-de0a8610-352b-4d83-b8ea-6e90a4fbdf28.png?raw=true" height="180px" width="105px">
    <img src="https://user-images.githubusercontent.com/75024999/126863039-1da26608-5360-4702-b630-37ffc2b97097.png?raw=true" height="120px" width="120px">
 </div> 
 
 - Chương trình được code trên Android Studio
+<div>
   <img src="https://user-images.githubusercontent.com/75024999/126862027-d2b66656-2a73-43ec-82d1-41002c66e2fc.png?raw=true" height="120px" width="120px">
+</div>
   
 ## 2. Khởi chạy ứng dụng
 - Giao diện sẽ xuất hiện như hình bên dưới sau khi mở ứng dụng:
