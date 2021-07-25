@@ -25,7 +25,7 @@
 - Sau khi đăng nhập tài khoản thành công thì sẽ vào giao diện chính của ứng dụng:
   + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/dashboard_app.gif)
 - Màn hình quản lý người dùng, hiển thị các thông tin của tài khoản đang được đăng nhập vào hệ thống bao gồm họ tên, email, địa chỉ, avatar... tại đây người dùng có thể tự do sửa đổi thông tin của mình:
-  + <img src="https://user-images.githubusercontent.com/75024999/126863735-a250a9d8-176f-4d2d-a960-457e06da78df.png?raw=true" height="380px" width="180px">
+  + <img src="https://user-images.githubusercontent.com/75024999/126863735-a250a9d8-176f-4d2d-a960-457e06da78df.png?raw=true" height="507px" width="240px">
 - Tương tự có các giao diện diện như Điện Thoại, Macbook, Tablet, Đồng Hồ...
 <div>
    <img src="https://user-images.githubusercontent.com/75024999/126863857-7728417a-d66d-4ac3-af48-51e2fef2bf64.png?raw=true" height="507px" width="240px">
@@ -36,8 +36,8 @@
 
 - Giao diện Thông Tin Ứng Dụng hiển thị các những thông tin của nhà phát triển:
 <div>
-   <img src="https://user-images.githubusercontent.com/75024999/126864733-b0bcdadd-d71d-4ba4-9576-93b310e052bb.png?raw=true" height="380px" width="180px">
-   <img src="https://user-images.githubusercontent.com/75024999/126864735-bf249100-a46a-4435-9b30-5da9e183014f.png?raw=true" height="380px" width="180px">
+   <img src="https://user-images.githubusercontent.com/75024999/126864733-b0bcdadd-d71d-4ba4-9576-93b310e052bb.png?raw=true" height="507px" width="240px">
+   <img src="https://user-images.githubusercontent.com/75024999/126864735-bf249100-a46a-4435-9b30-5da9e183014f.png?raw=true" height="507px" width="240px">
 </div> 
  
 - Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng 
