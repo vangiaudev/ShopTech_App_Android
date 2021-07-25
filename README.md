@@ -1,7 +1,7 @@
 # ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ
 > **NGUYỄN VĂN GIÀU - Sinh Viên Khoa Công Nghệ Thông Tin - Trường Đại Học Sư Phạm TP.HCM**
 
-## 1. Nền tảng triển khai
+## I. Nền tảng triển khai
 
 - Ứng dụng viết trên nền tảng Java và được chạy trên các thiết bị Android
 <div>
@@ -19,7 +19,7 @@
   <img src="https://user-images.githubusercontent.com/75024999/126862027-d2b66656-2a73-43ec-82d1-41002c66e2fc.png?raw=true" height="120px" width="120px">
 </div>
   
-## 2. Khởi chạy ứng dụng
+## II. Khởi chạy ứng dụng
 - Giao diện sẽ xuất hiện như hình bên dưới sau khi mở ứng dụng:
   + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/demo_app.gif)
    
@@ -31,21 +31,32 @@
    
 - Tương tự có các giao diện diện như Điện Thoại, Macbook, Tablet, Đồng Hồ... 
   + <div>
-   <img src="https://user-images.githubusercontent.com/75024999/126863857-7728417a-d66d-4ac3-af48-51e2fef2bf64.png?raw=true" height="507px" width="240px">
-   <img src="https://user-images.githubusercontent.com/75024999/126863865-ca5f2912-b51c-46eb-b17c-243a38ca7e95.png?raw=true" height="507px" width="240px">
-   <img src="https://user-images.githubusercontent.com/75024999/126863869-341f2346-1bf8-486b-8d1a-0a46bf4b251a.png?raw=true" height="507px" width="240px">
-   <img src="https://user-images.githubusercontent.com/75024999/126863875-8ad07dc2-a244-453d-b9cc-0a20551b13bd.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126863857-7728417a-d66d-4ac3-af48-51e2fef2bf64.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126863865-ca5f2912-b51c-46eb-b17c-243a38ca7e95.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126863869-341f2346-1bf8-486b-8d1a-0a46bf4b251a.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126863875-8ad07dc2-a244-453d-b9cc-0a20551b13bd.png?raw=true" height="507px" width="240px">
   </div> 
 
 - Giao diện Thông Tin Ứng Dụng hiển thị các những thông tin của nhà phát triển: 
   + <div>
-   <img src="https://user-images.githubusercontent.com/75024999/126864733-b0bcdadd-d71d-4ba4-9576-93b310e052bb.png?raw=true" height="507px" width="240px">
-   <img src="https://user-images.githubusercontent.com/75024999/126864735-bf249100-a46a-4435-9b30-5da9e183014f.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126864733-b0bcdadd-d71d-4ba4-9576-93b310e052bb.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126864735-bf249100-a46a-4435-9b30-5da9e183014f.png?raw=true" height="507px" width="240px">
   </div> 
  
+   
+## III. Các tính năng chính của phần mềm
 - Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng 
 Realtime Database trên FIREBASE: 
-  + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/searching_app.gif)
+  + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/searching_app.gif) 
+
+- Bên cạnh đó còn các chức năng cơ bản như xem chi tiết sản phẩm, đặt hàng, thêm giỏ hàng, đánh giá sản phẩm và xử lý thanh toán đơn hàng:
+  + ##### 1. Xem chi tiết sản phẩm
+    + <div>
+        <img src="https://user-images.githubusercontent.com/75024999/126900305-3200320f-cfd6-4e84-90fb-60a4f611b579.png?raw=true" height="507px" width="240px">
+        <img src="https://user-images.githubusercontent.com/75024999/126900351-6b4036fc-8aa8-408a-bd56-0f07c06e9db3.png?raw=true" height="507px" width="240px">
+      </div> 
+
+  
  
 
 
