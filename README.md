@@ -83,6 +83,15 @@
     <div>
        <img src="https://user-images.githubusercontent.com/75024999/126901426-b36db75b-33ed-456d-ba80-b04d14cf720d.png?raw=true" height="507px" width="240px">
        <img src="https://user-images.githubusercontent.com/75024999/126901432-f7a096ee-a4cf-4ac4-932b-a372a022b650.png?raw=true" height="507px" width="240px">
-    </div>
+    </div> 
+    
+## IV. Nhận xét phần mềm
+    
+    |  #  | Ưu điểm                                               | Nhược điểm                                                |
+    |-----| ------------------------------------------------------| --------------------------------------------------------- |
+    |  1  | Ứng dụng cũng tương đối hoàn thiện                    | Do chưa có nhiều kinh nghiệm nên vẫn còn 1 số thiếu sót   |
+    |  2  | Giao diện bắt mắt, dễ sử dụng, thao tác đơn giản      | chúng tôi sẽ cố gắng khắc phục để ứng dụng hoàn thiện hơn |
+    |  3  | Tìm kiếm và đưa ra kết quả nhanh chóng cho người dùng | và nhiều chức năng hơn…                                                         |
+
 
 
