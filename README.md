@@ -10,7 +10,7 @@
 
 - Sử dụng hệ cơ sở dữ liệu MySQL & Firebase
 <div>
-   <img src="https://user-images.githubusercontent.com/75024999/126862148-de0a8610-352b-4d83-b8ea-6e90a4fbdf28.png?raw=true" height="180px" width="105px">
+   <img src="https://user-images.githubusercontent.com/75024999/126862148-de0a8610-352b-4d83-b8ea-6e90a4fbdf28.png?raw=true" height="105px" width="180px">
    <img src="https://user-images.githubusercontent.com/75024999/126863039-1da26608-5360-4702-b630-37ffc2b97097.png?raw=true" height="120px" width="120px">
 </div> 
 
