@@ -40,12 +40,16 @@
   </div> 
 
 - Giao diện Thông Tin Ứng Dụng hiển thị các những thông tin của nhà phát triển: 
-  + <div>
+  <div>
       <img src="https://user-images.githubusercontent.com/75024999/126864733-b0bcdadd-d71d-4ba4-9576-93b310e052bb.png?raw=true" height="507px" width="240px">
       <img src="https://user-images.githubusercontent.com/75024999/126864735-bf249100-a46a-4435-9b30-5da9e183014f.png?raw=true" height="507px" width="240px">
   </div> 
- 
-   
+- Giao diện Tin Tức Công Nghệ: Dữ liệu được đọc từ file RSS của các trang web báo nổi tiếng, tại đây người dùng có thể xem đầy đủ các tin tức liên quan đến công nghệ như 1 trình duyệt đọc báo bình thường:
+  <div>
+      <img src="https://user-images.githubusercontent.com/75024999/126903222-e9fc4912-f47a-4685-8a25-a0b9012c6e26.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126903224-c7abb6b3-71f0-4c4d-b0e1-800f990d0e48.png?raw=true" height="507px" width="240px">
+  </div> 
+
 ## III. Các tính năng chính của phần mềm
 - #### 1. Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng Realtime Database trên FIREBASE:  
   + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/searching_app.gif) 
