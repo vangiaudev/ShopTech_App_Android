@@ -21,11 +21,14 @@
   
 ## 2. Khởi chạy ứng dụng
 - Giao diện sẽ xuất hiện như hình bên dưới sau khi mở ứng dụng:
-  + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/demo_app.gif)
+   ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/demo_app.gif)
+   
 - Sau khi đăng nhập tài khoản thành công thì sẽ vào giao diện chính của ứng dụng:
-  + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/dashboard_app.gif)
+   ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/dashboard_app.gif)
+   
 - Màn hình quản lý người dùng, hiển thị các thông tin của tài khoản đang được đăng nhập vào hệ thống bao gồm họ tên, email, địa chỉ, avatar... tại đây người dùng có thể tự do sửa đổi thông tin của mình:
-  + <img src="https://user-images.githubusercontent.com/75024999/126863735-a250a9d8-176f-4d2d-a960-457e06da78df.png?raw=true" height="507px" width="240px">
+   <img src="https://user-images.githubusercontent.com/75024999/126863735-a250a9d8-176f-4d2d-a960-457e06da78df.png?raw=true" height="507px" width="240px">
+   
 - Tương tự có các giao diện diện như Điện Thoại, Macbook, Tablet, Đồng Hồ...
 <div>
    <img src="https://user-images.githubusercontent.com/75024999/126863857-7728417a-d66d-4ac3-af48-51e2fef2bf64.png?raw=true" height="507px" width="240px">
@@ -42,7 +45,7 @@
  
 - Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng 
 Realtime Database trên FIREBASE: 
-  + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/searching_app.gif)
+   ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/searching_app.gif)
  
 
 
