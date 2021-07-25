@@ -27,20 +27,20 @@
   + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/dashboard_app.gif)
    
 - Màn hình quản lý người dùng, hiển thị các thông tin của tài khoản đang được đăng nhập vào hệ thống bao gồm họ tên, email, địa chỉ, avatar... tại đây người dùng có thể tự do sửa đổi thông tin của mình:
-  + <img src="https://user-images.githubusercontent.com/75024999/126863735-a250a9d8-176f-4d2d-a960-457e06da78df.png?raw=true" height="464px" width="220px">
+  + <img src="https://user-images.githubusercontent.com/75024999/126863735-a250a9d8-176f-4d2d-a960-457e06da78df.png?raw=true" height="507px" width="240px">
    
 - Tương tự có các giao diện diện như Điện Thoại, Macbook, Tablet, Đồng Hồ... 
-  + <div>
-      <img src="https://user-images.githubusercontent.com/75024999/126863857-7728417a-d66d-4ac3-af48-51e2fef2bf64.png?raw=true" height="464px" width="220px">
-      <img src="https://user-images.githubusercontent.com/75024999/126863865-ca5f2912-b51c-46eb-b17c-243a38ca7e95.png?raw=true" height="464px" width="220px">
-      <img src="https://user-images.githubusercontent.com/75024999/126863869-341f2346-1bf8-486b-8d1a-0a46bf4b251a.png?raw=true" height="464px" width="220px">
-      <img src="https://user-images.githubusercontent.com/75024999/126863875-8ad07dc2-a244-453d-b9cc-0a20551b13bd.png?raw=true" height="464px" width="220px">
+  <div>
+      <img src="https://user-images.githubusercontent.com/75024999/126863857-7728417a-d66d-4ac3-af48-51e2fef2bf64.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126863865-ca5f2912-b51c-46eb-b17c-243a38ca7e95.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126863869-341f2346-1bf8-486b-8d1a-0a46bf4b251a.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126863875-8ad07dc2-a244-453d-b9cc-0a20551b13bd.png?raw=true" height="507px" width="240px">
   </div> 
 
 - Giao diện Thông Tin Ứng Dụng hiển thị các những thông tin của nhà phát triển: 
   + <div>
-      <img src="https://user-images.githubusercontent.com/75024999/126864733-b0bcdadd-d71d-4ba4-9576-93b310e052bb.png?raw=true" height="464px" width="220px">
-      <img src="https://user-images.githubusercontent.com/75024999/126864735-bf249100-a46a-4435-9b30-5da9e183014f.png?raw=true" height="464px" width="220px">
+      <img src="https://user-images.githubusercontent.com/75024999/126864733-b0bcdadd-d71d-4ba4-9576-93b310e052bb.png?raw=true" height="507px" width="240px">
+      <img src="https://user-images.githubusercontent.com/75024999/126864735-bf249100-a46a-4435-9b30-5da9e183014f.png?raw=true" height="507px" width="240px">
   </div> 
  
    
@@ -50,41 +50,39 @@
 
 - #### 2. Bên cạnh đó còn các chức năng cơ bản như xem chi tiết sản phẩm, đặt hàng, thêm giỏ hàng, đánh giá sản phẩm và xử lý thanh toán đơn hàng:
   + ##### 2.1 Xem chi tiết sản phẩm:
-    <div>
-       <img src="https://user-images.githubusercontent.com/75024999/126900457-a311da14-0d0e-4fbd-9547-c010aa76bbec.png?raw=true" height="464px" width="220px">
-       <img src="https://user-images.githubusercontent.com/75024999/126900351-6b4036fc-8aa8-408a-bd56-0f07c06e9db3.png?raw=true" height="464px" width="220px">
+    <div align="left" >
+       <img src="https://user-images.githubusercontent.com/75024999/126900457-a311da14-0d0e-4fbd-9547-c010aa76bbec.png?raw=true" height="507px" width="240px">
+       <img src="https://user-images.githubusercontent.com/75024999/126900351-6b4036fc-8aa8-408a-bd56-0f07c06e9db3.png?raw=true" height="507px" width="240px">
     </div> 
   + ##### 2.2 Thêm giỏ hàng: Sau khi click vào Button THÊM GIỎ HÀNG, ứng dụng sẽ xuất hiện một BottomSheet hiện lên các thông tin của sản phẩm mà khách hàng vừa thêm
     <div>
-       <img src="https://user-images.githubusercontent.com/75024999/126900643-e84c7f82-5837-4b38-8579-4c209351c436.png?raw=true" height="464px" width="220px">
+       <img src="https://user-images.githubusercontent.com/75024999/126900643-e84c7f82-5837-4b38-8579-4c209351c436.png?raw=true" height="507px" width="240px">
     </div>
     
   + ##### 2.2 Xem giỏ hàng: Tại đây người dùng có thể tăng giảm số lượng sản phẩm cần mua, click giữ vào Item sản phẩm để thực hiện xóa sản phẩm khỏi giỏ hàng
     <div>
-       <img src="https://user-images.githubusercontent.com/75024999/126900818-26958a75-6a06-4477-b7b3-f8d2f102d51e.png?raw=true" height="464px" width="220px">
-       <img src="https://user-images.githubusercontent.com/75024999/126900821-26235ec2-8dbe-468b-806c-2bf7f86786b7.png?raw=true" height="464px" width="220px">
-       <img src="https://user-images.githubusercontent.com/75024999/126900824-8de703ec-e46f-47ec-bf15-ddd9dc9e026b.png?raw=true" height="464px" width="220px">
+       <img src="https://user-images.githubusercontent.com/75024999/126900818-26958a75-6a06-4477-b7b3-f8d2f102d51e.png?raw=true" height="507px" width="240px">
+       <img src="https://user-images.githubusercontent.com/75024999/126900821-26235ec2-8dbe-468b-806c-2bf7f86786b7.png?raw=true" height="507px" width="240px">
+       <img src="https://user-images.githubusercontent.com/75024999/126900824-8de703ec-e46f-47ec-bf15-ddd9dc9e026b.png?raw=true" height="507px" width="240px">
     </div> 
 
   + ##### 2.3 Đánh giá: Tại màn hình Chi Tiết Sản Phẩm, người dùng Scroll xuống dưới cùng để xem các đánh giá cũng như viết đánh giá của cá nhân:
      <div>
-       <img src="https://user-images.githubusercontent.com/75024999/126900948-1be175c9-b6ea-40d3-880d-36899d814238.png?raw=true" height="464px" width="220px">
+       <img src="https://user-images.githubusercontent.com/75024999/126900948-1be175c9-b6ea-40d3-880d-36899d814238.png?raw=true" height="507px" width="240px">
     </div>
     
   + ##### 2.4 Thanh toán: 
     + Tại màn hình Thanh Toán, người dùng cần nhập đầy đủ các thông tin cá nhân. Có 2 phương thức thanh toán cho người dùng lựa chọn
     <div>
-       <img src="https://user-images.githubusercontent.com/75024999/126901123-6f1a55d5-02c6-4cc1-9183-8ae09d640727.png?raw=true" height="464px" width="220px">
-       <img src="https://user-images.githubusercontent.com/75024999/126901174-d7f61c20-cd5c-46d7-9184-51345aab5f8c.png?raw=true" height="464px" width="220px">
-       <img src="https://user-images.githubusercontent.com/75024999/126901187-fbb24558-c8ce-4033-a77a-873a19879fd4.png?raw=true" height="464px" width="220px">
+       <img src="https://user-images.githubusercontent.com/75024999/126901123-6f1a55d5-02c6-4cc1-9183-8ae09d640727.png?raw=true" height="507px" width="240px">
+       <img src="https://user-images.githubusercontent.com/75024999/126901174-d7f61c20-cd5c-46d7-9184-51345aab5f8c.png?raw=true" height="507px" width="240px">
+       <img src="https://user-images.githubusercontent.com/75024999/126901187-fbb24558-c8ce-4033-a77a-873a19879fd4.png?raw=true" height="507px" width="240px">
     </div>  
     
     + Sau khi hoàn thành các thông tin trên người dùng tiến hành đặt hàng (ở đây mình sẽ demo phương thức thanh toán khi nhận hàng)
     <div>
-       <img src="https://user-images.githubusercontent.com/75024999/126901426-b36db75b-33ed-456d-ba80-b04d14cf720d.png?raw=true" height="464px" width="220px">
-       <img src="https://user-images.githubusercontent.com/75024999/126901432-f7a096ee-a4cf-4ac4-932b-a372a022b650.png?raw=true" height="464px" width="220px">
+       <img src="https://user-images.githubusercontent.com/75024999/126901426-b36db75b-33ed-456d-ba80-b04d14cf720d.png?raw=true" height="507px" width="240px">
+       <img src="https://user-images.githubusercontent.com/75024999/126901432-f7a096ee-a4cf-4ac4-932b-a372a022b650.png?raw=true" height="507px" width="240px">
     </div>
 
-
-  
 
