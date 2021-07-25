@@ -93,5 +93,5 @@
     |  2  | Giao diện bắt mắt, dễ sử dụng, thao tác đơn giản      | chúng tôi sẽ cố gắng khắc phục để ứng dụng hoàn thiện hơn |
     |  3  | Tìm kiếm và đưa ra kết quả nhanh chóng cho người dùng | và nhiều chức năng hơn…                                   |
 
-
+> **Copyright by Nguyễn Văn Giàu**
 
