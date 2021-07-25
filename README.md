@@ -45,8 +45,7 @@
  
    
 ## III. Các tính năng chính của phần mềm
-- #### 1. Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng 
-Realtime Database trên FIREBASE:  
+- #### 1. Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng Realtime Database trên FIREBASE:  
   + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/searching_app.gif) 
 
 - #### 2. Bên cạnh đó còn các chức năng cơ bản như xem chi tiết sản phẩm, đặt hàng, thêm giỏ hàng, đánh giá sản phẩm và xử lý thanh toán đơn hàng:
@@ -79,6 +78,7 @@ Realtime Database trên FIREBASE:
        <img src="https://user-images.githubusercontent.com/75024999/126901174-d7f61c20-cd5c-46d7-9184-51345aab5f8c.png?raw=true" height="507px" width="240px">
        <img src="https://user-images.githubusercontent.com/75024999/126901187-fbb24558-c8ce-4033-a77a-873a19879fd4.png?raw=true" height="507px" width="240px">
     </div>  
+    
     + Sau khi hoàn thành các thông tin trên người dùng tiến hành đặt hàng (ở đây mình sẽ demo phương thức thanh toán khi nhận hàng)
     <div>
        <img src="https://user-images.githubusercontent.com/75024999/126901426-b36db75b-33ed-456d-ba80-b04d14cf720d.png?raw=true" height="507px" width="240px">
