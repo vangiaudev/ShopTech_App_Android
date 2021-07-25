@@ -45,19 +45,32 @@
  
    
 ## III. Các tính năng chính của phần mềm
-- Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng 
+- #### 1. Chức năng tìm kiếm là 1 chức năng đặc biệt, ứng dụng sẽ đưa ra kết quả nhanh chóng bằng việc sử dụng Filter tích hợp tính năng 
 Realtime Database trên FIREBASE: 
   + ![grab-landing-page](https://github.com/vangiaurecca/ShopTech_App_Android/blob/main/searching_app.gif) 
 
-- Bên cạnh đó còn các chức năng cơ bản như xem chi tiết sản phẩm, đặt hàng, thêm giỏ hàng, đánh giá sản phẩm và xử lý thanh toán đơn hàng:
-  + ##### 1. Xem chi tiết sản phẩm
-    + <div>
-        <img src="https://user-images.githubusercontent.com/75024999/126900305-3200320f-cfd6-4e84-90fb-60a4f611b579.png?raw=true" height="507px" width="240px">
-        <img src="https://user-images.githubusercontent.com/75024999/126900351-6b4036fc-8aa8-408a-bd56-0f07c06e9db3.png?raw=true" height="507px" width="240px">
-      </div> 
+- #### 2. Bên cạnh đó còn các chức năng cơ bản như xem chi tiết sản phẩm, đặt hàng, thêm giỏ hàng, đánh giá sản phẩm và xử lý thanh toán đơn hàng:
+  + ##### 2.1 Xem chi tiết sản phẩm:
+    <div>
+       <img src="https://user-images.githubusercontent.com/75024999/126900457-a311da14-0d0e-4fbd-9547-c010aa76bbec.png?raw=true" height="507px" width="240px">
+       <img src="https://user-images.githubusercontent.com/75024999/126900351-6b4036fc-8aa8-408a-bd56-0f07c06e9db3.png?raw=true" height="507px" width="240px">
+    </div> 
+  + ##### 2.2 Thêm giỏ hàng: Sau khi click vào Button THÊM GIỎ HÀNG, ứng dụng sẽ xuất hiện một BottomSheet hiện lên các thông tin của sản phẩm mà khách hàng vừa thêm
+    <div>
+       <img src="https://user-images.githubusercontent.com/75024999/126900643-e84c7f82-5837-4b38-8579-4c209351c436.png?raw=true" height="507px" width="240px">
+    </div>
+    
+  + ##### 2.2 Xem giỏ hàng: Tại đây người dùng có thể tăng giảm số lượng sản phẩm cần mua, click giữ vào Item sản phẩm để thực hiện xóa sản phẩm khỏi giỏ hàng
+    <div>
+       <img src="https://user-images.githubusercontent.com/75024999/126900818-26958a75-6a06-4477-b7b3-f8d2f102d51e.png?raw=true" height="507px" width="240px">
+       <img src="https://user-images.githubusercontent.com/75024999/126900821-26235ec2-8dbe-468b-806c-2bf7f86786b7.png?raw=true" height="507px" width="240px">
+       <img src="https://user-images.githubusercontent.com/75024999/126900824-8de703ec-e46f-47ec-bf15-ddd9dc9e026b.png?raw=true" height="507px" width="240px">
+    </div> 
 
-  
- 
+  + ##### 2.3 Đánh giá: Tại màn hình Chi Tiết Sản Phẩm, người dùng Scroll xuống dưới cùng để xem các đánh giá cũng như viết đánh giá của cá nhân:
+     <div>
+       <img src="https://user-images.githubusercontent.com/75024999/126900948-1be175c9-b6ea-40d3-880d-36899d814238.png?raw=true" height="507px" width="240px">
+    </div>
 
 
 
