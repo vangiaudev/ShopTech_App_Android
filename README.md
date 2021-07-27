@@ -39,7 +39,7 @@
       <img src="https://user-images.githubusercontent.com/75024999/126863875-8ad07dc2-a244-453d-b9cc-0a20551b13bd.png?raw=true" height="507px" width="240px">
   </div> 
 
-- Giao diện Thông Tin Ứng Dụng hiển thị các những thông tin của nhà phát triển: 
+- Giao diện Thông Tin Ứng Dụng hiển thị các thông tin của nhà phát triển: 
   <div>
       <img src="https://user-images.githubusercontent.com/75024999/126864733-b0bcdadd-d71d-4ba4-9576-93b310e052bb.png?raw=true" height="507px" width="240px">
       <img src="https://user-images.githubusercontent.com/75024999/126864735-bf249100-a46a-4435-9b30-5da9e183014f.png?raw=true" height="507px" width="240px">
@@ -94,7 +94,7 @@
 ## IV. Nhận xét phần mềm
     
     |  #  | Ưu điểm                                               | Nhược điểm                                                |
-    |-----| ------------------------------------------------------| --------------------------------------------------------- |
+    |-----| ----------------------------------------------------- | --------------------------------------------------------- |
     |  1  | Ứng dụng cũng tương đối hoàn thiện                    | Do chưa có nhiều kinh nghiệm nên vẫn còn 1 số thiếu sót   |
     |  2  | Giao diện bắt mắt, dễ sử dụng, thao tác đơn giản      | chúng tôi sẽ cố gắng khắc phục để ứng dụng hoàn thiện hơn |
     |  3  | Tìm kiếm và đưa ra kết quả nhanh chóng cho người dùng | và nhiều chức năng hơn…                                   |
