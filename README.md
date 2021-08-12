@@ -65,19 +65,19 @@
        <img src="https://user-images.githubusercontent.com/75024999/126900643-e84c7f82-5837-4b38-8579-4c209351c436.png?raw=true" height="507px" width="240px">
     </div>
     
-  + ##### 2.2 Xem giỏ hàng: Tại đây người dùng có thể tăng giảm số lượng sản phẩm cần mua, click giữ vào Item sản phẩm để thực hiện xóa sản phẩm khỏi giỏ hàng
+  + ##### 2.3 Xem giỏ hàng: Tại đây người dùng có thể tăng giảm số lượng sản phẩm cần mua, click giữ vào Item sản phẩm để thực hiện xóa sản phẩm khỏi giỏ hàng
     <div>
        <img src="https://user-images.githubusercontent.com/75024999/126900818-26958a75-6a06-4477-b7b3-f8d2f102d51e.png?raw=true" height="507px" width="240px">
        <img src="https://user-images.githubusercontent.com/75024999/126900821-26235ec2-8dbe-468b-806c-2bf7f86786b7.png?raw=true" height="507px" width="240px">
        <img src="https://user-images.githubusercontent.com/75024999/126900824-8de703ec-e46f-47ec-bf15-ddd9dc9e026b.png?raw=true" height="507px" width="240px">
     </div> 
 
-  + ##### 2.3 Đánh giá: Tại màn hình Chi Tiết Sản Phẩm, người dùng Scroll xuống dưới cùng để xem các đánh giá cũng như viết đánh giá của cá nhân:
+  + ##### 2.4 Đánh giá: Tại màn hình Chi Tiết Sản Phẩm, người dùng Scroll xuống dưới cùng để xem các đánh giá cũng như viết đánh giá của cá nhân:
      <div>
        <img src="https://user-images.githubusercontent.com/75024999/126900948-1be175c9-b6ea-40d3-880d-36899d814238.png?raw=true" height="507px" width="240px">
     </div>
     
-  + ##### 2.4 Thanh toán: 
+  + ##### 2.5 Thanh toán: 
     + Tại màn hình Thanh Toán, người dùng cần nhập đầy đủ các thông tin cá nhân. Có 2 phương thức thanh toán cho người dùng lựa chọn
     <div>
        <img src="https://user-images.githubusercontent.com/75024999/126901123-6f1a55d5-02c6-4cc1-9183-8ae09d640727.png?raw=true" height="507px" width="240px">
