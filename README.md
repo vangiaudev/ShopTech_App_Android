@@ -14,7 +14,7 @@
    <img src="https://user-images.githubusercontent.com/75024999/126863039-1da26608-5360-4702-b630-37ffc2b97097.png?raw=true" height="120px" width="120px">
 </div> 
 
-- Chương trình được code trên Android Studio
+- Ứng dụng được thực thi trên Android Studio
 <div>
   <img src="https://user-images.githubusercontent.com/75024999/126862027-d2b66656-2a73-43ec-82d1-41002c66e2fc.png?raw=true" height="120px" width="120px">
 </div>
