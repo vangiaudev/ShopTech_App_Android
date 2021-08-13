@@ -1,4 +1,4 @@
-# ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ (MUA BÁN CÁC SẢN PHẨM CÔNG NGHỆ)
+# APP THƯƠNG MẠI ĐIỆN TỬ (MUA BÁN CÁC SẢN PHẨM CÔNG NGHỆ)
 > **NGUYỄN VĂN GIÀU - Sinh Viên Khoa Công Nghệ Thông Tin - Trường Đại Học Sư Phạm TP. Hồ Chí Minh**
 
 ## I. Nền tảng triển khai
