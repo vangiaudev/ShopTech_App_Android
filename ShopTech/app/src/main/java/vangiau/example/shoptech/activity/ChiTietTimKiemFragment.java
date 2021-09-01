@@ -51,6 +51,7 @@ import vangiau.example.shoptech.R;
 import vangiau.example.shoptech.adapter.DanhGiaAdapter;
 import vangiau.example.shoptech.adapter.HinhAnhChiTietAdapter;
 import vangiau.example.shoptech.general.CheckConnect;
+import vangiau.example.shoptech.general.Server;
 import vangiau.example.shoptech.model.DanhGia;
 import vangiau.example.shoptech.model.GioHang;
 import vangiau.example.shoptech.model.HinhAnhChiTiet;
@@ -172,7 +173,7 @@ public class ChiTietTimKiemFragment extends Fragment {
     }
     private void GetDanhGiaTheoIDSanPham() {
         RequestQueue requestQueue = Volley.newRequestQueue(Objects.requireNonNull(getContext()));
-        StringRequest stringRequest =  new StringRequest(Request.Method.POST, "http://vangiaurecca.000webhostapp.com/server/getDanhGiaTheoIDSanPham.php", response -> {
+        StringRequest stringRequest =  new StringRequest(Request.Method.POST, Server.pathGetDanhGiaTheoIDSanPham, response -> {
             int ID, idSanPham;
             String noiDung, ngayDanhGia, email, hoTen, avatar;
             Double rating;
@@ -212,7 +213,7 @@ public class ChiTietTimKiemFragment extends Fragment {
 
     private void LoadDanhGia() {
         RequestQueue requestQueue = Volley.newRequestQueue(Objects.requireNonNull(getContext()));
-        StringRequest stringRequest =  new StringRequest(Request.Method.POST, "http://vangiaurecca.000webhostapp.com/server/getDanhGia.php", response -> {
+        StringRequest stringRequest =  new StringRequest(Request.Method.POST, Server.pathGetDanhGia, response -> {
             int ID, idSanPham;
             String noiDung, ngayDanhGia, email;
             Double rating;
@@ -258,7 +259,7 @@ public class ChiTietTimKiemFragment extends Fragment {
 
     private void PostNoiDungDanhGia() {
         RequestQueue requestQueue = Volley.newRequestQueue(Objects.requireNonNull(getContext()));
-        StringRequest stringRequest =  new StringRequest(Request.Method.POST, "http://vangiaurecca.000webhostapp.com/server/setNoiDungDanhGia.php", response -> {
+        StringRequest stringRequest =  new StringRequest(Request.Method.POST, Server.pathSetNoiDungDanhGia, response -> {
             if(response.equals("error")){
                 CheckConnect.ToastMessError(getContext(), "Hệ thống lỗi, không thể thực hiện đánh giá");
             }

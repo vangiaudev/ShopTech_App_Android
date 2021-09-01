@@ -46,6 +46,7 @@ import java.util.regex.Pattern;
 import vangiau.example.shoptech.R;
 import vangiau.example.shoptech.general.CheckConnect;
 import vangiau.example.shoptech.general.ProgressButton;
+import vangiau.example.shoptech.general.Server;
 
 public class DangNhapActivity extends AppCompatActivity {
 
@@ -106,7 +107,7 @@ public class DangNhapActivity extends AppCompatActivity {
         }
         else {
             RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
-            JsonArrayRequest jsonArrayRequest = new JsonArrayRequest("http://vangiaurecca.000webhostapp.com/server/getNguoiDung.php", response -> {
+            JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Server.pathGetNguoiDung, response -> {
 
                 if(response != null){
                     String taiKhoanDangNhap;
@@ -161,7 +162,7 @@ public class DangNhapActivity extends AppCompatActivity {
                             CheckConnect.ToastMessError(getApplicationContext(), "Bạn chưa nhập thông tin tài khoản");
                         } else {
                             RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
-                            StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://vangiaurecca.000webhostapp.com/server/nguoidung.php", response -> {
+                            StringRequest stringRequest = new StringRequest(Request.Method.POST, Server.pathNguoiDung, response -> {
                                 if (!response.equals("error")) {
                                     ProgressButton progressButton = new ProgressButton(getApplicationContext(), viewSignin);
                                     progressButton.buttonActivatedSignin();

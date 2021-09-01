@@ -1,6 +1,5 @@
 package vangiau.example.shoptech.general;
 
-import android.content.Intent;
 
 public class Server {
     public static String localhost = "vangiaurecca.000webhostapp.com";
@@ -16,6 +15,7 @@ public class Server {
     public static String pathGiaTangDan = "http://" + localhost + "/server/getGiaTangDan.php?page=";
     public static String pathUpdateNguoiDung = "http://" + localhost + "/server/updateThongTinNguoiDung.php";
     public static String pathGetNguoiDung = "http://" + localhost + "/server/getNguoiDung.php";
+    public static String pathNguoiDung = "http://" + localhost + "/server/nguoidung.php";
     public static String pathLichSuMuaHang = "http://" + localhost + "/server/getLichSuMuaHang.php?page=";
     public static String pathGetDanhGiaTheoIDSanPham = "http://" + localhost + "/server/getDanhGiaTheoIDSanPham.php";
     public static String pathGetDanhGia = "http://" + localhost + "/server/getDanhGia.php";
